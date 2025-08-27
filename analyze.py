@@ -1,6 +1,5 @@
 #Imports the file with the text to be read
 import ch1text
-import dorian
 
 
 def count_sentences(text):
@@ -98,4 +97,4 @@ def compute_readability(text):
 
 
 
-compute_readability(dorian.text)
+compute_readability(ch1text.text)
